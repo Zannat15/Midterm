@@ -103,20 +103,52 @@ button:hover {
     background-color: #218838;
 }
 
-.contact-images {
-    text-align: center;
-    padding: 70px;
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
 }
 
-.image-container {
+.contact-form {
+    width: 45%;
+}
+
+.contact-form form {
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-images {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .image-box {
     text-align: center;
-    width: 60%;
 }
 
 .image-box img {
@@ -126,11 +158,16 @@ button:hover {
     transition: transform 0.3s ease-in-out;
 }
 
+.image-box img:hover {
+    transform: scale(1.05);
+}
+
 .image-box h3 {
     margin-top: 10px;
     font-size: 18px;
     font-weight: bold;
 }
+
 
 
 footer {
