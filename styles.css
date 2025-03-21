@@ -126,10 +126,6 @@ button:hover {
     transition: transform 0.3s ease-in-out;
 }
 
-.image-box img:hover {
-    transform: scale(1.05);
-}
-
 .image-box h3 {
     margin-top: 10px;
     font-size: 18px;
