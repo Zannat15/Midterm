@@ -105,18 +105,18 @@ button:hover {
 
 .contact-images {
     text-align: center;
-    padding: 40px;
+    padding: 70px;
 }
 
 .image-container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 .image-box {
     text-align: center;
-    width: 40%;
+    width: 60%;
 }
 
 .image-box img {
